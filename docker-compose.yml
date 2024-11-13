@@ -148,7 +148,7 @@ services:
     logging: *default-logging
     image: icinga/icingaweb2
     ports:
-      - 8080:8080
+      - 9980:8080
     # Restart Icinga Web container automatically since we have to wait for the database to be ready.
     # Please note that this needs a more sophisticated solution.
     restart: on-failure
